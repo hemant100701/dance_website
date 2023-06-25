@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#logo img{
+    height: 50px;
+    filter: invert(1);
+}
+#logo{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0px 13px;
+    font-weight: bold;
+}
+nav{
+    background-color: rgb(239, 108, 108);
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav li{
+    list-style: none;
+    padding: 13px 24px
+}
+nav li a{
+    padding: 10px;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: black;
+}
+#introsection{
+    color: white;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    background: url('/static/bg.jpg') no-repeat center center;
+    align-items: center;
+    height: 300px;
+}
+#introsection h2{
+    padding-bottom: 8px;
+}
+#sponsorsection{
+    background-color: rgb(68 71 75 / 56%);
+    height: 300px;
+    text-align: center;
+    color: white;
+}
+
+#mission{
+    background-color: rgb(22 24 27 / 56%);
+    height: 300px;
+}
+
+#mission h2{
+    text-align: center;
+    color: white;
+    padding-top: 6px;
+}
+
+#mission-container{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    display: inline-block;
+    background-color: rgb(208, 208, 222);
+    height: 206px;
+    width: 281px;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.card h3{
+    text-align: center;
+    padding-bottom: 8px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+.card-image{
+    display: inline-block;
+    width: 40%;
+}
+
+.card-content{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    align-items: center;
+}
+
+.about-card{
+    width: 59%;
+    padding: 10px
+}
+.card-image img{
+    height: 152px;
+}
+
+
+
+#sponsorsection h2{
+    padding-top: 10px;
+}
+.sponsor-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+.sponsor-content img{
+    width: 166px;
+    height: 172px;
+    margin: 10px;
+    padding-left: 20px;
+}
+
+
+#footer{
+    display: flex;
+    background-color: rgb(166 163 166);
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
